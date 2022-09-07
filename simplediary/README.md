@@ -34,3 +34,21 @@
 
 - 세부 목표
   - 배열을 이용한 React의 List에 아이템을 동적으로 수정 해보기 With 조건부 렌더링
+
+## 6-7. React Lifecycle 제어하기 - useEffect
+
+- Lifecycle , React 컴포넌트의 생명 주기
+  - 화면에 나타나는 것 Mount / ex) 초기화 작업 
+    - ComponentDidMount (Class React Component Only)
+  - 업데이트 (리렌더) Update / ex) 예외 처리 작업
+    - ComponentDidUpdate
+  - 화면에서 사라짐 UnMount / ex) 메모리 정리 작업
+    - ComponentWillUnmount
+
+- React Hooks 2019년 6월 정식 출시
+  - Class형 컴포넌트의 길어지는 코드 길이 문제
+  - 중복 코드, 가독성 문제 등등을 해결하기 위해 동작함
+
+- useEffect 
+  - Callback 함수, Dependency Array(의존성 배열)
+  - 이 배열 내에 들어있는 값이 변화하면 콜백 함수가 수행된다.
