@@ -38,7 +38,8 @@
 ## 6-7. React Lifecycle 제어하기 - useEffect
 
 - Lifecycle , React 컴포넌트의 생명 주기
-  - 화면에 나타나는 것 Mount / ex) 초기화 작업 
+
+  - 화면에 나타나는 것 Mount / ex) 초기화 작업
     - ComponentDidMount (Class React Component Only)
   - 업데이트 (리렌더) Update / ex) 예외 처리 작업
     - ComponentDidUpdate
@@ -46,15 +47,30 @@
     - ComponentWillUnmount
 
 - React Hooks 2019년 6월 정식 출시
+
   - Class형 컴포넌트의 길어지는 코드 길이 문제
   - 중복 코드, 가독성 문제 등등을 해결하기 위해 동작함
 
-- useEffect 
+- useEffect
   - Callback 함수, Dependency Array(의존성 배열)
   - 이 배열 내에 들어있는 값이 변화하면 콜백 함수가 수행된다.
 
 ## 6-8. React에서 API 호출하기
 
 - 세부 목표
+
   - useEffect를 이용하여 컴포넌트 Mount 시점에 API를 호출하고 해당 API의 결과값을 일기 데이터의 초기값으로 이용하기
   - https://jsonplaceholder.typicode.com/
+
+## 6-9. React developer tools
+
+- Chrome의 확장 도구 / facebook 직접 제작
+- 도구 더보기 - 확장 프로그램 - React developer tools 체크 설정
+- 세부 정보 > 사이트 액세스 (모든 사이트) > 파일 URL에 대한 액세스 허용 (ON)
+- 주황색 표시 : This page is using the development build of React. 🚧
+
+- 관리자 도구
+  - Components
+    - 앱 컴포넌트가 가지고 있는 state, hooks , props, key 값 조회 가능
+  - Profiler
+    - Highlight updates when components render. : 리렌더 되는 컴포넌트 표시
