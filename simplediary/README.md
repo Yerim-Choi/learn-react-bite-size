@@ -52,3 +52,9 @@
 - useEffect 
   - Callback 함수, Dependency Array(의존성 배열)
   - 이 배열 내에 들어있는 값이 변화하면 콜백 함수가 수행된다.
+
+## 6-8. React에서 API 호출하기
+
+- 세부 목표
+  - useEffect를 이용하여 컴포넌트 Mount 시점에 API를 호출하고 해당 API의 결과값을 일기 데이터의 초기값으로 이용하기
+  - https://jsonplaceholder.typicode.com/
