@@ -79,7 +79,7 @@ function App() {
     dispatch({
       type: "CREATE",
       data: {
-        id: data.Id.current,
+        id: dataId.current,
         date: new Date(date).getTime(),
         content,
         emotion,
